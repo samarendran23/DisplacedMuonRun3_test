@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoMuon/GlobalTrackingTools
+subdirs_src_RecoMuon_GlobalTrackingTools := src_RecoMuon_GlobalTrackingTools_plugins src_RecoMuon_GlobalTrackingTools_python src_RecoMuon_GlobalTrackingTools_src src_RecoMuon_GlobalTrackingTools_test

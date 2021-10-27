@@ -1,0 +1,2 @@
+ALL_PACKAGES += DataFormats/TrackReco
+subdirs_src_DataFormats_TrackReco := src_DataFormats_TrackReco_src src_DataFormats_TrackReco_test

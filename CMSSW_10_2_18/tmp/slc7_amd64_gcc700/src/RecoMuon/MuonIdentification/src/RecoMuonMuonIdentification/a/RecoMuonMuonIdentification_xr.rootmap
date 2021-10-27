@@ -1,0 +1,14 @@
+{ decls }
+namespace reco { class Muon; }
+template <typename PhysObj> class MakeVersionedSelector;
+template <typename Collection, typename InPhysObj, typename OutPhysObj> class MakePtrFromCollection;
+namespace pat { class Muon; }
+template <typename T> class PrintVIDToString;
+
+[ libRecoMuonMuonIdentification.so ]
+# List of selected classes
+class MakePtrFromCollection<vector<pat::Muon>,pat::Muon,reco::Muon>
+class MakePtrFromCollection<vector<reco::Muon>,reco::Muon,reco::Muon>
+class MakeVersionedSelector<reco::Muon>
+class PrintVIDToString<reco::Muon>
+class VersionedSelector<edm::Ptr<reco::Muon> >

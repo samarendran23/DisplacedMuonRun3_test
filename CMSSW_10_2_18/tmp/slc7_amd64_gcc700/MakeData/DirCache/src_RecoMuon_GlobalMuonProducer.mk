@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoMuon/GlobalMuonProducer
+subdirs_src_RecoMuon_GlobalMuonProducer := src_RecoMuon_GlobalMuonProducer_doc src_RecoMuon_GlobalMuonProducer_python src_RecoMuon_GlobalMuonProducer_src src_RecoMuon_GlobalMuonProducer_test

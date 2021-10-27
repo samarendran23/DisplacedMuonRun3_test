@@ -1,0 +1,209 @@
+{ decls }
+namespace std {  }
+namespace edm {  }
+namespace reco { class TrackExtra; }
+namespace reco { class Track; }
+namespace reco { class DeDxHitInfo; }
+namespace edm { template <typename T> class RefToBase; }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename T> class RefToBaseVector; }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { template <typename CKey, typename Val, typename index> class OneToValue; }
+namespace edm { template <typename , typename , typename > class OneToValue; }
+namespace edm { template <typename Tag> class AssociationMap; }
+namespace edm { template <typename CKey, typename CVal, typename index> class OneToOne; }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace reco { class DeDxData; }
+namespace edm { template <typename T> class ValueMap; }
+namespace edm { template <typename , typename , typename > class OneToMany; }
+namespace edm { template <typename C> class Association; }
+namespace edm { namespace reftobase {  } }
+namespace edm { namespace reftobase { template <typename T> class BaseHolder; } }
+namespace edm { namespace reftobase { template <typename T, typename REF> class Holder; } }
+namespace edm { namespace reftobase { template <typename T> class IndirectHolder; } }
+namespace edm { namespace reftobase { template <typename REF> class RefHolder; } }
+namespace edm { template <typename T> class Ptr; }
+namespace edm { namespace reftobase { template <typename T> class BaseVectorHolder; } }
+namespace reco {  }
+namespace edm { template <typename T> class RefToBaseProd; }
+namespace edm { namespace helpers {  } }
+namespace edm { namespace helpers { template <typename K, typename V> class KeyVal; } }
+namespace edm { namespace helpers { template <typename K> class Key; } }
+namespace edm { namespace helper { class AssociationIdenticalKeyReference; } }
+namespace edm { template <typename KeyRefProd, typename CVal, typename KeyRef, typename SizeType, typename KeyReferenceHelper> class AssociationVector; }
+
+[ libDataFormatsTrackReco.so ]
+# List of selected classes
+class SeedStopInfo
+class bitset<46>
+class bitset<46ul>
+class edm::Association<reco::TrackCollection>
+class edm::Association<vector<reco::DeDxHitInfo> >
+class edm::Association<vector<reco::Track> >
+class edm::AssociationMap<edm::OneToMany<std::vector<reco::Track>,std::vector<TrajectorySeed>,unsigned int> >
+class edm::AssociationMap<edm::OneToMany<vector<reco::Track>,vector<TrajectorySeed>,unsigned int> >
+class edm::AssociationMap<edm::OneToOne<std::vector<reco::Track>,std::vector<reco::Track>,unsigned int> >
+class edm::AssociationMap<edm::OneToOne<vector<reco::Track>,vector<reco::Track>,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<std::vector<reco::Track>,bool,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<std::vector<reco::Track>,double,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<std::vector<reco::Track>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<std::vector<reco::Track>,int,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::Track>,bool,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::Track>,double,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::Track>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::Track>,int,unsigned int> >
+class edm::AssociationVector<edm::RefProd<vector<reco::Track> >,vector<bool>,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::Track> >,vector<double>,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::Track> >,vector<float>,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::Track> >,vector<int>,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::AssociationVector<edm::RefProd<vector<reco::Track> >,vector<vector<reco::DeDxHit> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,unsigned int,edm::helper::AssociationIdenticalKeyReference>
+class edm::Ptr<reco::Track>
+class edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >
+class edm::Ref<std::vector<reco::TrackExtra>,reco::TrackExtra,edm::refhelper::FindUsingAdvance<std::vector<reco::TrackExtra>,reco::TrackExtra> >
+class edm::Ref<vector<reco::DeDxHitInfo>,reco::DeDxHitInfo,edm::refhelper::FindUsingAdvance<vector<reco::DeDxHitInfo>,reco::DeDxHitInfo> >
+class edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >
+class edm::Ref<vector<reco::TrackExtra>,reco::TrackExtra,edm::refhelper::FindUsingAdvance<vector<reco::TrackExtra>,reco::TrackExtra> >
+class edm::RefProd<std::vector<reco::Track> >
+class edm::RefProd<std::vector<reco::TrackExtra> >
+class edm::RefProd<vector<reco::DeDxHitInfo> >
+class edm::RefProd<vector<reco::Track> >
+class edm::RefProd<vector<reco::TrackExtra> >
+class edm::RefToBase<reco::Track>
+class edm::RefToBaseProd<reco::Track>
+class edm::RefToBaseVector<reco::Track>
+class edm::RefVector<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >
+class edm::RefVector<std::vector<reco::TrackExtra>,reco::TrackExtra,edm::refhelper::FindUsingAdvance<std::vector<reco::TrackExtra>,reco::TrackExtra> >
+class edm::RefVector<vector<reco::DeDxHitInfo>,reco::DeDxHitInfo,edm::refhelper::FindUsingAdvance<vector<reco::DeDxHitInfo>,reco::DeDxHitInfo> >
+class edm::RefVector<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >
+class edm::RefVector<vector<reco::TrackExtra>,reco::TrackExtra,edm::refhelper::FindUsingAdvance<vector<reco::TrackExtra>,reco::TrackExtra> >
+class edm::ValueMap<edm::RefVector<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class edm::ValueMap<reco::DeDxData>
+class edm::ValueMap<reco::TrackRefVector>
+class edm::Wrapper<edm::Association<reco::TrackCollection> >
+class edm::Wrapper<edm::Association<vector<reco::DeDxHitInfo> > >
+class edm::Wrapper<edm::Association<vector<reco::Track> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToMany<vector<reco::Track>,vector<TrajectorySeed>,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToOne<vector<reco::Track>,vector<reco::Track>,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::Track>,bool,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::Track>,double,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::Track>,float,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::Track>,int,unsigned int> > >
+class edm::Wrapper<edm::AssociationVector<edm::RefProd<vector<reco::Track> >,vector<vector<reco::DeDxHit> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,unsigned int,edm::helper::AssociationIdenticalKeyReference> >
+class edm::Wrapper<edm::RefToBaseVector<reco::Track> >
+class edm::Wrapper<edm::RefVector<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > >
+class edm::Wrapper<edm::RefVector<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class edm::Wrapper<edm::ValueMap<edm::RefVector<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > > >
+class edm::Wrapper<edm::ValueMap<reco::DeDxData> >
+class edm::Wrapper<edm::ValueMap<reco::TrackRefVector> >
+class edm::Wrapper<pair<TrackCandidate,pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > > > >
+class edm::Wrapper<pair<TrackCandidate,pair<reco::Track,reco::Track> > >
+class edm::Wrapper<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > > >
+class edm::Wrapper<pair<reco::Track,reco::Track> >
+class edm::Wrapper<reco::DeDxDataCollection>
+class edm::Wrapper<reco::DeDxDataValueMap>
+class edm::Wrapper<reco::DeDxHitInfo>
+class edm::Wrapper<reco::DeDxHitInfoAss>
+class edm::Wrapper<reco::DeDxHitInfoCollection>
+class edm::Wrapper<reco::TrackBaseRefVector>
+class edm::Wrapper<reco::TrackDeDxHitsCollection>
+class edm::Wrapper<std::pair<TrackCandidate,std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > > > >
+class edm::Wrapper<std::pair<TrackCandidate,std::pair<reco::Track,reco::Track> > >
+class edm::Wrapper<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > > >
+class edm::Wrapper<std::pair<reco::Track,reco::Track> >
+class edm::Wrapper<std::vector<SeedStopInfo> >
+class edm::Wrapper<std::vector<reco::Track> >
+class edm::Wrapper<std::vector<reco::TrackExtra> >
+class edm::Wrapper<std::vector<std::pair<TrackCandidate,std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > > > > >
+class edm::Wrapper<std::vector<std::pair<TrackCandidate,std::pair<reco::Track,reco::Track> > > >
+class edm::Wrapper<vector<SeedStopInfo> >
+class edm::Wrapper<vector<pair<TrackCandidate,pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > > > > >
+class edm::Wrapper<vector<pair<TrackCandidate,pair<reco::Track,reco::Track> > > >
+class edm::Wrapper<vector<reco::DeDxData> >
+class edm::Wrapper<vector<reco::DeDxHitInfo> >
+class edm::Wrapper<vector<reco::Track> >
+class edm::Wrapper<vector<reco::TrackExtra> >
+class edm::helpers::Key<edm::RefProd<std::vector<reco::Track> > >
+class edm::helpers::Key<edm::RefProd<vector<reco::Track> > >
+class edm::helpers::KeyVal<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > >
+class edm::helpers::KeyVal<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class edm::helpers::KeyVal<edm::RefProd<std::vector<reco::Track> >,edm::RefProd<std::vector<TrajectorySeed> > >
+class edm::helpers::KeyVal<edm::RefProd<std::vector<reco::Track> >,edm::RefProd<std::vector<reco::Track> > >
+class edm::helpers::KeyVal<edm::RefProd<vector<reco::Track> >,edm::RefProd<vector<TrajectorySeed> > >
+class edm::helpers::KeyVal<edm::RefProd<vector<reco::Track> >,edm::RefProd<vector<reco::Track> > >
+class edm::reftobase::BaseHolder<reco::Track>
+class edm::reftobase::BaseVectorHolder<reco::Track>
+class edm::reftobase::Holder<reco::Track,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class edm::reftobase::Holder<reco::Track,reco::TrackRef>
+class edm::reftobase::IndirectHolder<reco::Track>
+class edm::reftobase::RefHolder<edm::Ptr<reco::Track> >
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class edm::reftobase::RefHolder<reco::TrackRef>
+class pair<TrackCandidate,pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > > >
+class pair<TrackCandidate,pair<reco::Track,reco::Track> >
+class pair<TrackCandidate,std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > > >
+class pair<TrackCandidate,std::pair<reco::Track,reco::Track> >
+class pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > >
+class pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,float>
+class pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,int>
+class pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,float>
+class pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,int>
+class pair<edm::RefToBase<reco::Track>,double>
+class pair<reco::Track,reco::Track>
+class reco::DeDxData
+class reco::DeDxDataCollection
+class reco::DeDxDataValueMap
+class reco::DeDxHit
+class reco::DeDxHitCollection
+class reco::DeDxHitInfo
+class reco::DeDxHitInfo::DeDxHitInfoContainer
+class reco::DeDxHitInfo::DeDxHitInfoContainerCollection
+class reco::DeDxHitInfoAss
+class reco::DeDxHitInfoCollection
+class reco::DeDxHitInfoRef
+class reco::DeDxHitInfoRefProd
+class reco::DeDxHitInfoRefVector
+class reco::HitPattern
+class reco::Track
+class reco::TrackBase
+class reco::TrackBase::AlgoMask
+class reco::TrackBaseRefVector
+class reco::TrackExtra
+class reco::TrackExtraBase
+class reco::TrackResiduals
+class vector<SeedStopInfo>
+class vector<edm::Ptr<reco::Track> >
+class vector<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > >
+class vector<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class vector<edm::RefToBase<reco::Track> >
+class vector<edm::RefVector<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > >
+class vector<edm::RefVector<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class vector<pair<TrackCandidate,pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > > > >
+class vector<pair<TrackCandidate,pair<reco::Track,reco::Track> > >
+class vector<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,float> >
+class vector<pair<edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> >,int> >
+class vector<pair<edm::RefToBase<reco::Track>,double> >
+class vector<reco::DeDxData>
+class vector<reco::DeDxHit>
+class vector<reco::DeDxHitInfo::DeDxHitInfoContainer>
+class vector<reco::DeDxHitInfo>
+class vector<reco::Track>
+class vector<reco::TrackExtra>
+class vector<std::pair<TrackCandidate,std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> > > > >
+class vector<std::pair<TrackCandidate,std::pair<reco::Track,reco::Track> > >
+class vector<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,float> >
+class vector<std::pair<edm::Ref<std::vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<std::vector<reco::Track>,reco::Track> >,int> >
+class vector<std::pair<edm::RefToBase<reco::Track>,double> >
+header DataFormats/TrackReco/interface/SeedStopInfo.h
+header DataFormats/TrackReco/interface/DeDxData.h
+header DataFormats/TrackReco/interface/DeDxHit.h
+header DataFormats/TrackReco/interface/DeDxHitInfo.h
+header DataFormats/TrackReco/interface/HitPattern.h
+header DataFormats/TrackReco/interface/Track.h
+header DataFormats/TrackReco/interface/TrackBase.h
+header DataFormats/TrackReco/interface/TrackExtra.h
+header DataFormats/TrackReco/interface/TrackExtraBase.h
+header DataFormats/TrackReco/interface/TrackResiduals.h
+# List of selected typedefs and outer classes

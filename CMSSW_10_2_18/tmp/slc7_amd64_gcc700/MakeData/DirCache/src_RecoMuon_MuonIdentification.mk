@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoMuon/MuonIdentification
+subdirs_src_RecoMuon_MuonIdentification := src_RecoMuon_MuonIdentification_plugins src_RecoMuon_MuonIdentification_python src_RecoMuon_MuonIdentification_src src_RecoMuon_MuonIdentification_test

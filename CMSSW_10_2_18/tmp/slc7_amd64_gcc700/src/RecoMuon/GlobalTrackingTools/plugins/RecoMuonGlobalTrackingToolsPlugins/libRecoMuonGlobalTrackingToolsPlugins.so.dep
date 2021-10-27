@@ -1,0 +1,39 @@
+tmp/slc7_amd64_gcc700/src/RecoMuon/GlobalTrackingTools/plugins/RecoMuonGlobalTrackingToolsPlugins/Module.cc.o: \
+ src/RecoMuon/GlobalTrackingTools/plugins/Module.cc \
+ src/RecoMuon/GlobalTrackingTools/plugins/GlobalTrackQualityProducer.h \
+ src/DataFormats/TrackReco/interface/Track.h \
+ src/DataFormats/TrackReco/interface/TrackBase.h \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+ src/DataFormats/TrackReco/interface/TrackExtra.h \
+ src/DataFormats/TrackReco/interface/TrackExtraBase.h \
+ src/DataFormats/TrackReco/interface/TrackResiduals.h \
+ src/DataFormats/TrackReco/interface/TrackExtraFwd.h \
+ src/DataFormats/MuonReco/interface/MuonQuality.h \
+ src/DataFormats/MuonReco/interface/MuonFwd.h \
+ src/RecoMuon/GlobalTrackingTools/interface/GlobalMuonRefitter.h \
+ src/DataFormats/TrackReco/interface/TrackFwd.h \
+ src/DataFormats/TrackReco/interface/TrajectoryStopReasons.h \
+ src/DataFormats/MuonReco/interface/DYTInfo.h \
+ src/RecoMuon/GlobalTrackingTools/interface/GlobalMuonTrackMatcher.h \
+ src/DataFormats/MuonReco/interface/MuonTrackLinks.h \
+ src/RecoMuon/GlobalTrackingTools/interface/MuonTrackingRegionBuilder.h \
+
+tmp/slc7_amd64_gcc700/src/RecoMuon/GlobalTrackingTools/plugins/RecoMuonGlobalTrackingToolsPlugins/GlobalTrackQualityProducer.cc.o: \
+ src/RecoMuon/GlobalTrackingTools/plugins/GlobalTrackQualityProducer.cc \
+ src/RecoMuon/GlobalTrackingTools/plugins/GlobalTrackQualityProducer.h \
+ src/DataFormats/TrackReco/interface/Track.h \
+ src/DataFormats/TrackReco/interface/TrackBase.h \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+ src/DataFormats/TrackReco/interface/TrackExtra.h \
+ src/DataFormats/TrackReco/interface/TrackExtraBase.h \
+ src/DataFormats/TrackReco/interface/TrackResiduals.h \
+ src/DataFormats/TrackReco/interface/TrackExtraFwd.h \
+ src/DataFormats/MuonReco/interface/MuonQuality.h \
+ src/DataFormats/MuonReco/interface/MuonFwd.h \
+ src/RecoMuon/GlobalTrackingTools/interface/GlobalMuonRefitter.h \
+ src/DataFormats/TrackReco/interface/TrackFwd.h \
+ src/DataFormats/TrackReco/interface/TrajectoryStopReasons.h \
+ src/DataFormats/MuonReco/interface/DYTInfo.h \
+ src/RecoMuon/GlobalTrackingTools/interface/GlobalMuonTrackMatcher.h \
+ src/DataFormats/MuonReco/interface/MuonTrackLinks.h \
+

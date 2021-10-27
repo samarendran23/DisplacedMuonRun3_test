@@ -1,0 +1,2 @@
+ALL_PACKAGES += DataFormats/RecoCandidate
+subdirs_src_DataFormats_RecoCandidate := src_DataFormats_RecoCandidate_interface src_DataFormats_RecoCandidate_src

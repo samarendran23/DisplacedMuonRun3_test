@@ -1,0 +1,2 @@
+ALL_PACKAGES += DataFormats/MuonReco
+subdirs_src_DataFormats_MuonReco := src_DataFormats_MuonReco_doc src_DataFormats_MuonReco_interface src_DataFormats_MuonReco_src src_DataFormats_MuonReco_test

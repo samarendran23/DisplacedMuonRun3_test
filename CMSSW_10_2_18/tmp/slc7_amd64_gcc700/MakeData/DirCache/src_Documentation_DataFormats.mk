@@ -1,0 +1,2 @@
+ALL_PACKAGES += Documentation/DataFormats
+subdirs_src_Documentation_DataFormats := src_Documentation_DataFormats_python src_Documentation_DataFormats_scripts

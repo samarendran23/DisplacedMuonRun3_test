@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=Documentation
+subdirs_src_Documentation = src_Documentation_DataFormats

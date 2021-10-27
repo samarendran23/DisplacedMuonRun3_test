@@ -1,0 +1,4 @@
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/test/testHitPattern/testHitPattern.cpp.o: \
+ src/DataFormats/TrackReco/test/testHitPattern.cpp \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+

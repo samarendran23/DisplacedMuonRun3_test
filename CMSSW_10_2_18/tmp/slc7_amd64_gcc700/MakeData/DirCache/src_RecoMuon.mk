@@ -1,0 +1,2 @@
+ALL_SUBSYSTEMS+=RecoMuon
+subdirs_src_RecoMuon = src_RecoMuon_GlobalMuonProducer src_RecoMuon_MuonIdentification src_RecoMuon_Configuration src_RecoMuon_GlobalTrackingTools src_RecoMuon_MuonIsolation

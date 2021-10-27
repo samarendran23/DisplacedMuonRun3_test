@@ -1,0 +1,164 @@
+{ decls }
+namespace __gnu_cxx {  }
+namespace reco { class IsoDeposit; }
+namespace std {  }
+namespace edm {  }
+namespace reco { class RecoChargedCandidate; }
+namespace reco { class RecoChargedRefCandidate; }
+namespace reco { class RecoEcalCandidate; }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename T> class Wrapper; }
+namespace edm { template <typename CKey, typename Val, typename index> class OneToValue; }
+namespace edm { template <typename Tag> class AssociationMap; }
+namespace reco { class FitQuality; }
+namespace reco { class Candidate; }
+namespace reco { class Track; }
+namespace edm { template <typename T> class View; }
+namespace edm { template <typename T> class ValueMap; }
+namespace reco { class RecoCandidate; }
+namespace edm { namespace reftobase {  } }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace edm { namespace reftobase { template <typename T, typename REF> class Holder; } }
+namespace reco { class RecoStandAloneMuonCandidate; }
+namespace edm { namespace reftobase { template <typename REF> class RefHolder; } }
+namespace edm { namespace reftobase { template <typename T, typename REFV> class VectorHolder; } }
+namespace edm { template <typename T> class ClonePolicy; }
+namespace edm { namespace reftobase { template <typename REFV> class RefVectorHolder; } }
+namespace reco {  }
+namespace edm { namespace helpers {  } }
+namespace edm { template <typename T, typename P> class OwnVector; }
+namespace edm { namespace helpers { template <typename K> class Key; } }
+namespace edm { template <typename T> class RefToBaseProd; }
+namespace edm { template <typename B> class RefToBase; }
+namespace edm { template <typename CKey, typename CVal, typename index> class OneToOne; }
+namespace reco { namespace isodeposit {  } }
+
+[ libDataFormatsRecoCandidate.so ]
+# List of selected classes
+class __gnu_cxx::__normal_iterator<const reco::IsoDeposit*,vector<reco::IsoDeposit> >
+class __gnu_cxx::__normal_iterator<reco::IsoDeposit const*,vector<reco::IsoDeposit> >
+class edm::AssociationMap<edm::OneToManyWithQualityGeneric<edm::View<reco::Track>,vector<TrackingParticle>,double,unsigned int,edm::RefToBaseProd<reco::Track>,edm::RefProd<vector<TrackingParticle> >,edm::RefToBase<reco::Track>,edm::Ref<vector<TrackingParticle>,TrackingParticle,edm::refhelper::FindUsingAdvance<vector<TrackingParticle>,TrackingParticle> > > >
+class edm::AssociationMap<edm::OneToManyWithQualityGeneric<vector<TrackingParticle>,edm::View<reco::Track>,double,unsigned int,edm::RefProd<vector<TrackingParticle> >,edm::RefToBaseProd<reco::Track>,edm::Ref<vector<TrackingParticle>,TrackingParticle,edm::refhelper::FindUsingAdvance<vector<TrackingParticle>,TrackingParticle> >,edm::RefToBase<reco::Track> > >
+class edm::AssociationMap<edm::OneToOne<std::vector<reco::Track>,edm::OwnVector<reco::Candidate,edm::ClonePolicy<reco::Candidate> >,unsigned int> >
+class edm::AssociationMap<edm::OneToOne<vector<reco::Track>,edm::OwnVector<reco::Candidate,edm::ClonePolicy<reco::Candidate> >,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<std::vector<reco::RecoChargedCandidate>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<std::vector<reco::RecoEcalCandidate>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::RecoChargedCandidate>,float,unsigned int> >
+class edm::AssociationMap<edm::OneToValue<vector<reco::RecoEcalCandidate>,float,unsigned int> >
+class edm::OwnVector<reco::RecoCandidate,edm::ClonePolicy<reco::RecoCandidate> >
+class edm::Ref<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> >
+class edm::Ref<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> >
+class edm::Ref<std::vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> >
+class edm::Ref<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> >
+class edm::Ref<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> >
+class edm::Ref<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> >
+class edm::RefProd<std::vector<reco::RecoChargedCandidate> >
+class edm::RefProd<std::vector<reco::RecoChargedRefCandidate> >
+class edm::RefProd<std::vector<reco::RecoEcalCandidate> >
+class edm::RefProd<vector<reco::RecoChargedCandidate> >
+class edm::RefProd<vector<reco::RecoChargedRefCandidate> >
+class edm::RefProd<vector<reco::RecoEcalCandidate> >
+class edm::RefVector<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> >
+class edm::RefVector<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> >
+class edm::RefVector<std::vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> >
+class edm::RefVector<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> >
+class edm::RefVector<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> >
+class edm::RefVector<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> >
+class edm::ValueMap<reco::FitQuality>
+class edm::ValueMap<reco::IsoDeposit>
+class edm::ValueMap<reco::IsoDeposit>::const_iterator
+class edm::Wrapper<edm::AssociationMap<edm::OneToManyWithQualityGeneric<edm::View<reco::Track>,vector<TrackingParticle>,double,unsigned int,edm::RefToBaseProd<reco::Track>,edm::RefProd<vector<TrackingParticle> >,edm::RefToBase<reco::Track>,edm::Ref<vector<TrackingParticle>,TrackingParticle,edm::refhelper::FindUsingAdvance<vector<TrackingParticle>,TrackingParticle> > > > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToManyWithQualityGeneric<vector<TrackingParticle>,edm::View<reco::Track>,double,unsigned int,edm::RefProd<vector<TrackingParticle> >,edm::RefToBaseProd<reco::Track>,edm::Ref<vector<TrackingParticle>,TrackingParticle,edm::refhelper::FindUsingAdvance<vector<TrackingParticle>,TrackingParticle> >,edm::RefToBase<reco::Track> > > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToOne<vector<reco::Track>,edm::OwnVector<reco::Candidate,edm::ClonePolicy<reco::Candidate> >,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::RecoChargedCandidate>,float,unsigned int> > >
+class edm::Wrapper<edm::AssociationMap<edm::OneToValue<vector<reco::RecoEcalCandidate>,float,unsigned int> > >
+class edm::Wrapper<edm::OwnVector<reco::RecoCandidate,edm::ClonePolicy<reco::RecoCandidate> > >
+class edm::Wrapper<edm::RefVector<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::Wrapper<edm::RefVector<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::Wrapper<edm::RefVector<std::vector<reco::RecoEcalCandidate> > >
+class edm::Wrapper<edm::RefVector<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::Wrapper<edm::RefVector<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::Wrapper<edm::RefVector<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> > >
+class edm::Wrapper<edm::ValueMap<reco::FitQuality> >
+class edm::Wrapper<edm::ValueMap<reco::IsoDeposit> >
+class edm::Wrapper<reco::RecoToSimCollection>
+class edm::Wrapper<reco::SimToRecoCollection>
+class edm::Wrapper<std::vector<reco::RecoChargedCandidate> >
+class edm::Wrapper<std::vector<reco::RecoChargedRefCandidate> >
+class edm::Wrapper<std::vector<reco::RecoEcalCandidate> >
+class edm::Wrapper<vector<reco::RecoChargedCandidate> >
+class edm::Wrapper<vector<reco::RecoChargedRefCandidate> >
+class edm::Wrapper<vector<reco::RecoEcalCandidate> >
+class edm::helpers::Key<edm::RefProd<std::vector<reco::RecoChargedCandidate> > >
+class edm::helpers::Key<edm::RefProd<std::vector<reco::RecoEcalCandidate> > >
+class edm::helpers::Key<edm::RefProd<vector<reco::RecoChargedCandidate> > >
+class edm::helpers::Key<edm::RefProd<vector<reco::RecoEcalCandidate> > >
+class edm::helpers::KeyVal<edm::RefProd<std::vector<reco::Track> >,edm::RefProd<edm::OwnVector<reco::Candidate,edm::ClonePolicy<reco::Candidate> > > >
+class edm::helpers::KeyVal<edm::RefProd<vector<reco::Track> >,edm::RefProd<edm::OwnVector<reco::Candidate,edm::ClonePolicy<reco::Candidate> > > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<std::vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<std::vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate> > >
+class edm::reftobase::Holder<reco::Candidate,reco::RecoStandAloneMuonCandidateRef>
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> > >
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate> > >
+class edm::reftobase::RefHolder<reco::RecoChargedCandidateRef>
+class edm::reftobase::RefHolder<reco::RecoChargedRefCandidateRef>
+class edm::reftobase::RefHolder<reco::RecoEcalCandidateRef>
+class edm::reftobase::RefHolder<reco::RecoStandAloneMuonCandidateRef>
+class edm::reftobase::RefVectorHolder<edm::RefVector<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::reftobase::RefVectorHolder<edm::RefVector<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::reftobase::RefVectorHolder<edm::RefVector<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> > >
+class edm::reftobase::RefVectorHolder<edm::RefVector<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate> > >
+class edm::reftobase::RefVectorHolder<reco::RecoChargedCandidateRefVector>
+class edm::reftobase::RefVectorHolder<reco::RecoChargedRefCandidateRefVector>
+class edm::reftobase::RefVectorHolder<reco::RecoEcalCandidateRefVector>
+class edm::reftobase::RefVectorHolder<reco::RecoStandAloneMuonCandidateRefVector>
+class edm::reftobase::VectorHolder<reco::Candidate,edm::RefVector<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedCandidate>,reco::RecoChargedCandidate> > >
+class edm::reftobase::VectorHolder<reco::Candidate,edm::RefVector<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoChargedRefCandidate>,reco::RecoChargedRefCandidate> > >
+class edm::reftobase::VectorHolder<reco::Candidate,edm::RefVector<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoEcalCandidate>,reco::RecoEcalCandidate> > >
+class edm::reftobase::VectorHolder<reco::Candidate,edm::RefVector<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate,edm::refhelper::FindUsingAdvance<vector<reco::RecoStandAloneMuonCandidate>,reco::RecoStandAloneMuonCandidate> > >
+class edm::reftobase::VectorHolder<reco::Candidate,reco::RecoChargedCandidateRefVector>
+class edm::reftobase::VectorHolder<reco::Candidate,reco::RecoChargedRefCandidateRefVector>
+class edm::reftobase::VectorHolder<reco::Candidate,reco::RecoEcalCandidateRefVector>
+class edm::reftobase::VectorHolder<reco::Candidate,reco::RecoStandAloneMuonCandidateRefVector>
+class multimap<reco::isodeposit::Direction::Distance,float>
+class reco::CaloRecHitCandidate
+class reco::FitQuality
+class reco::FitResultCollection
+class reco::IsoDeposit
+class reco::IsoDeposit::Veto
+class reco::IsoDeposit::const_iterator
+class reco::RecoCaloTowerCandidate
+class reco::RecoCandidate
+class reco::RecoChargedCandidate
+class reco::RecoChargedRefCandidate
+class reco::RecoEcalCandidate
+class reco::RecoToSimCollection
+class reco::SimToRecoCollection
+class reco::isodeposit::Direction
+class reco::isodeposit::Direction::Distance
+class vector<reco::FitQuality>
+class vector<reco::IsoDeposit>
+class vector<reco::IsoDeposit>::const_iterator
+class vector<reco::RecoCandidate*>
+class vector<reco::RecoChargedCandidate>
+class vector<reco::RecoChargedRefCandidate>
+class vector<reco::RecoEcalCandidate>
+header DataFormats/RecoCandidate/interface/CaloRecHitCandidate.h
+header DataFormats/RecoCandidate/interface/FitQuality.h
+header DataFormats/RecoCandidate/interface/IsoDeposit.h
+header DataFormats/RecoCandidate/interface/RecoCaloTowerCandidate.h
+header DataFormats/RecoCandidate/interface/RecoCandidate.h
+header DataFormats/RecoCandidate/interface/RecoChargedCandidate.h
+header DataFormats/RecoCandidate/interface/RecoChargedRefCandidate.h
+header DataFormats/RecoCandidate/interface/RecoEcalCandidate.h
+header DataFormats/RecoCandidate/interface/IsoDepositDirection.h
+# List of selected typedefs and outer classes

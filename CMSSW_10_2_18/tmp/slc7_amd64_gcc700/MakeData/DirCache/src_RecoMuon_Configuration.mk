@@ -1,0 +1,2 @@
+ALL_PACKAGES += RecoMuon/Configuration
+subdirs_src_RecoMuon_Configuration := src_RecoMuon_Configuration_python src_RecoMuon_Configuration_test

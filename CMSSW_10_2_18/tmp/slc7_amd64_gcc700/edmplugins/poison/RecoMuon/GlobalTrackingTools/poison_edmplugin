@@ -1,0 +1,14 @@
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so GlobalTrackQualityProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so GlobalTrackQualityProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so MuonTrackingRegionBuilder TrackingRegionProducerFactory
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so MuonTrackingRegionEDProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so MuonTrackingRegionEDProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-DYTTuner.so DYTTuner CMS%EDM%Framework%Module
+plugin-poisoned-DYTTuner.so DYTTuner CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so GlobalTrackQualityProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so GlobalTrackQualityProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so MuonTrackingRegionBuilder TrackingRegionProducerFactory
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so MuonTrackingRegionEDProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalTrackingToolsPlugins.so MuonTrackingRegionEDProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-DYTTuner.so DYTTuner CMS%EDM%Framework%Module
+plugin-poisoned-DYTTuner.so DYTTuner CMS%EDM%Framework%ParameterSet%Description

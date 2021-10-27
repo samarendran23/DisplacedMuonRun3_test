@@ -1,0 +1,8 @@
+plugin-poisoned-RecoMuonGlobalMuonProducer.so GlobalMuonProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalMuonProducer.so GlobalMuonProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonGlobalMuonProducer.so TevMuonProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalMuonProducer.so TevMuonProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonGlobalMuonProducer.so GlobalMuonProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalMuonProducer.so GlobalMuonProducer CMS%EDM%Framework%ParameterSet%Description
+plugin-poisoned-RecoMuonGlobalMuonProducer.so TevMuonProducer CMS%EDM%Framework%Module
+plugin-poisoned-RecoMuonGlobalMuonProducer.so TevMuonProducer CMS%EDM%Framework%ParameterSet%Description

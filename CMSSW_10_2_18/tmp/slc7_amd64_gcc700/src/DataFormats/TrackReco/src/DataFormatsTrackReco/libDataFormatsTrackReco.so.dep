@@ -1,0 +1,67 @@
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/a/DataFormatsTrackReco_xr.cc: \
+ src/DataFormats/TrackReco/src/classes.h \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+ src/DataFormats/TrackReco/src/classes.h \
+ src/DataFormats/TrackReco/interface/Track.h \
+ src/DataFormats/TrackReco/interface/TrackBase.h \
+ src/DataFormats/TrackReco/interface/TrackExtra.h \
+ src/DataFormats/TrackReco/interface/TrackExtraBase.h \
+ src/DataFormats/TrackReco/interface/TrackResiduals.h \
+ src/DataFormats/TrackReco/interface/TrackExtraFwd.h \
+ src/DataFormats/TrackReco/interface/TrackFwd.h \
+ src/DataFormats/TrackReco/interface/TrackToTrackMap.h \
+ src/DataFormats/TrackReco/interface/DeDxHit.h \
+ src/DataFormats/TrackReco/interface/TrackDeDxHits.h \
+ src/DataFormats/TrackReco/interface/DeDxData.h \
+ src/DataFormats/TrackReco/interface/TrajectoryStopReasons.h \
+ src/DataFormats/TrackReco/interface/DeDxHitInfo.h \
+ src/DataFormats/TrackReco/interface/SeedStopInfo.h \
+ src/DataFormats/TrackReco/interface/SeedStopReason.h
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/HitPattern.cc.o: \
+ src/DataFormats/TrackReco/src/HitPattern.cc \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/SeedStopReason.cc.o: \
+ src/DataFormats/TrackReco/src/SeedStopReason.cc \
+ src/DataFormats/TrackReco/interface/SeedStopReason.h
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/TrackBase.cc.o: \
+ src/DataFormats/TrackReco/src/TrackBase.cc \
+ src/DataFormats/TrackReco/interface/TrackBase.h \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+ src/DataFormats/TrackReco/interface/fillCovariance.h
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/DeDxData.cc.o: \
+ src/DataFormats/TrackReco/src/DeDxData.cc \
+ src/DataFormats/TrackReco/interface/DeDxData.h \
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/Track.cc.o: \
+ src/DataFormats/TrackReco/src/Track.cc \
+ src/DataFormats/TrackReco/interface/Track.h \
+ src/DataFormats/TrackReco/interface/TrackBase.h \
+ src/DataFormats/TrackReco/interface/HitPattern.h \
+ src/DataFormats/TrackReco/interface/TrackExtra.h \
+ src/DataFormats/TrackReco/interface/TrackExtraBase.h \
+ src/DataFormats/TrackReco/interface/TrackResiduals.h \
+ src/DataFormats/TrackReco/interface/TrackExtraFwd.h
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/fillCovariance.cc.o: \
+ src/DataFormats/TrackReco/src/fillCovariance.cc \
+ src/DataFormats/TrackReco/interface/fillCovariance.h \
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/TrajectoryStopReasons.cc.o: \
+ src/DataFormats/TrackReco/src/TrajectoryStopReasons.cc \
+ src/DataFormats/TrackReco/interface/TrajectoryStopReasons.h
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/TrackResiduals.cc.o: \
+ src/DataFormats/TrackReco/src/TrackResiduals.cc \
+ src/DataFormats/TrackReco/interface/TrackResiduals.h
+
+tmp/slc7_amd64_gcc700/src/DataFormats/TrackReco/src/DataFormatsTrackReco/TrackExtra.cc.o: \
+ src/DataFormats/TrackReco/src/TrackExtra.cc \
+ src/DataFormats/TrackReco/interface/TrackExtra.h \
+ src/DataFormats/TrackReco/interface/TrackExtraBase.h \
+ src/DataFormats/TrackReco/interface/TrackResiduals.h \
+ src/DataFormats/TrackReco/interface/fillCovariance.h
+

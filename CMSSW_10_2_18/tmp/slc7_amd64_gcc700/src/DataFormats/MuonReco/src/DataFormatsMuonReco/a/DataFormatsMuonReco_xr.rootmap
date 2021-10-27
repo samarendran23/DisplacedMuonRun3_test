@@ -1,0 +1,211 @@
+{ decls }
+namespace __gnu_cxx {  }
+namespace reco { class MuonMETCorrectionData; }
+namespace reco { class MuonQuality; }
+namespace reco { class MuonCosmicCompatibility; }
+namespace reco { class Muon; }
+namespace reco { class MuonShower; }
+namespace reco { class DYTInfo; }
+namespace edm {  }
+namespace edm { namespace refhelper { template <typename C, typename T> class FindUsingAdvance; } }
+class EmulatedME0Segment;
+namespace reco { class ME0Muon; }
+namespace reco { class MuonTrackLinks; }
+namespace edm { template <typename B> class RefToBase; }
+namespace edm { template <typename C> class RefProd; }
+namespace edm { template <typename T> class RefProd; }
+namespace edm { template <typename C, typename T, typename F> class RefVector; }
+namespace edm { template <typename T> class RefToBaseVector; }
+namespace edm { template <typename T> class Wrapper; }
+namespace reco { class MuonTimeExtra; }
+namespace edm { template <typename T> class ValueMap; }
+namespace edm { template <typename C, typename T, typename F> class Ref; }
+namespace edm { template <typename C> class Association; }
+namespace edm { template <typename T> class Ptr; }
+namespace edm { template <typename T> class PtrVector; }
+namespace reco { class MuonSimInfo; }
+namespace edm { namespace reftobase {  } }
+namespace edm { namespace reftobase { template <typename T> class BaseHolder; } }
+namespace reco { class Candidate; }
+namespace edm { namespace reftobase { template <typename T> class IndirectHolder; } }
+namespace edm { namespace reftobase { template <typename REF> class RefHolder; } }
+namespace edm { namespace reftobase { template <typename T> class BaseVectorHolder; } }
+namespace edm { namespace reftobase { template <typename T, typename REFV> class VectorHolder; } }
+namespace std {  }
+namespace edm { namespace reftobase { template <typename REFV> class RefVectorHolder; } }
+namespace edm { template <typename T> class RefToBaseProd; }
+namespace reco {  }
+namespace edm { namespace helpers {  } }
+namespace edm { namespace helpers { template <typename K> class Key; } }
+
+[ libDataFormatsMuonReco.so ]
+# List of selected classes
+class EmulatedME0Segment
+class __gnu_cxx::__normal_iterator<const edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> >*,vector<edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > > >
+class __gnu_cxx::__normal_iterator<const reco::DYTInfo*,vector<reco::DYTInfo> >
+class __gnu_cxx::__normal_iterator<const reco::MuonCosmicCompatibility*,vector<reco::MuonCosmicCompatibility> >
+class __gnu_cxx::__normal_iterator<const reco::MuonMETCorrectionData*,vector<reco::MuonMETCorrectionData> >
+class __gnu_cxx::__normal_iterator<const reco::MuonQuality*,vector<reco::MuonQuality> >
+class __gnu_cxx::__normal_iterator<const reco::MuonShower*,vector<reco::MuonShower> >
+class __gnu_cxx::__normal_iterator<reco::DYTInfo const*,vector<reco::DYTInfo> >
+class __gnu_cxx::__normal_iterator<reco::MuonCosmicCompatibility const*,vector<reco::MuonCosmicCompatibility> >
+class __gnu_cxx::__normal_iterator<reco::MuonMETCorrectionData const*,vector<reco::MuonMETCorrectionData> >
+class __gnu_cxx::__normal_iterator<reco::MuonQuality const*,vector<reco::MuonQuality> >
+class __gnu_cxx::__normal_iterator<reco::MuonShower const*,vector<reco::MuonShower> >
+class edm::Association<reco::MuonCollection>
+class edm::Association<vector<reco::Muon> >
+class edm::Ptr<reco::Muon>
+class edm::PtrVector<reco::Muon>
+class edm::Ref<std::vector<EmulatedME0Segment>,EmulatedME0Segment,edm::refhelper::FindUsingAdvance<std::vector<EmulatedME0Segment>,EmulatedME0Segment> >
+class edm::Ref<std::vector<reco::ME0Muon>,reco::ME0Muon,edm::refhelper::FindUsingAdvance<std::vector<reco::ME0Muon>,reco::ME0Muon> >
+class edm::Ref<std::vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<std::vector<reco::Muon>,reco::Muon> >
+class edm::Ref<std::vector<reco::MuonTrackLinks>,reco::MuonTrackLinks,edm::refhelper::FindUsingAdvance<std::vector<reco::MuonTrackLinks>,reco::MuonTrackLinks> >
+class edm::Ref<vector<EmulatedME0Segment>,EmulatedME0Segment,edm::refhelper::FindUsingAdvance<vector<EmulatedME0Segment>,EmulatedME0Segment> >
+class edm::Ref<vector<reco::ME0Muon>,reco::ME0Muon,edm::refhelper::FindUsingAdvance<vector<reco::ME0Muon>,reco::ME0Muon> >
+class edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> >
+class edm::Ref<vector<reco::MuonTrackLinks>,reco::MuonTrackLinks,edm::refhelper::FindUsingAdvance<vector<reco::MuonTrackLinks>,reco::MuonTrackLinks> >
+class edm::RefProd<std::vector<reco::Muon> >
+class edm::RefProd<std::vector<reco::MuonTrackLinks> >
+class edm::RefProd<vector<reco::Muon> >
+class edm::RefProd<vector<reco::MuonTrackLinks> >
+class edm::RefToBase<reco::Muon>
+class edm::RefToBaseProd<reco::Muon>
+class edm::RefToBaseVector<reco::Muon>
+class edm::RefVector<std::vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<std::vector<reco::Muon>,reco::Muon> >
+class edm::RefVector<std::vector<reco::MuonTrackLinks>,reco::MuonTrackLinks,edm::refhelper::FindUsingAdvance<std::vector<reco::MuonTrackLinks>,reco::MuonTrackLinks> >
+class edm::RefVector<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> >
+class edm::RefVector<vector<reco::MuonTrackLinks>,reco::MuonTrackLinks,edm::refhelper::FindUsingAdvance<vector<reco::MuonTrackLinks>,reco::MuonTrackLinks> >
+class edm::ValueMap<edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class edm::ValueMap<edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >::const_iterator
+class edm::ValueMap<reco::DYTInfo>
+class edm::ValueMap<reco::DYTInfo>::const_iterator
+class edm::ValueMap<reco::MuonCosmicCompatibility>
+class edm::ValueMap<reco::MuonCosmicCompatibility>::const_iterator
+class edm::ValueMap<reco::MuonMETCorrectionData>
+class edm::ValueMap<reco::MuonMETCorrectionData>::const_iterator
+class edm::ValueMap<reco::MuonQuality>
+class edm::ValueMap<reco::MuonQuality>::const_iterator
+class edm::ValueMap<reco::MuonRef>
+class edm::ValueMap<reco::MuonRef>::const_iterator
+class edm::ValueMap<reco::MuonShower>
+class edm::ValueMap<reco::MuonShower>::const_iterator
+class edm::ValueMap<reco::MuonSimInfo>
+class edm::ValueMap<reco::MuonTimeExtra>
+class edm::Wrapper<edm::Association<reco::MuonCollection> >
+class edm::Wrapper<edm::Association<vector<reco::Muon> > >
+class edm::Wrapper<edm::Ptr<reco::Muon> >
+class edm::Wrapper<edm::PtrVector<reco::Muon> >
+class edm::Wrapper<edm::RefToBaseVector<reco::Muon> >
+class edm::Wrapper<edm::RefVector<std::vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<std::vector<reco::Muon>,reco::Muon> > >
+class edm::Wrapper<edm::RefVector<std::vector<reco::MuonTrackLinks>,reco::MuonTrackLinks,edm::refhelper::FindUsingAdvance<std::vector<reco::MuonTrackLinks>,reco::MuonTrackLinks> > >
+class edm::Wrapper<edm::RefVector<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class edm::Wrapper<edm::RefVector<vector<reco::MuonTrackLinks>,reco::MuonTrackLinks,edm::refhelper::FindUsingAdvance<vector<reco::MuonTrackLinks>,reco::MuonTrackLinks> > >
+class edm::Wrapper<edm::ValueMap<edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > > >
+class edm::Wrapper<edm::ValueMap<reco::DYTInfo> >
+class edm::Wrapper<edm::ValueMap<reco::MuonCosmicCompatibility> >
+class edm::Wrapper<edm::ValueMap<reco::MuonMETCorrectionData> >
+class edm::Wrapper<edm::ValueMap<reco::MuonQuality> >
+class edm::Wrapper<edm::ValueMap<reco::MuonRef> >
+class edm::Wrapper<edm::ValueMap<reco::MuonShower> >
+class edm::Wrapper<edm::ValueMap<reco::MuonSimInfo> >
+class edm::Wrapper<edm::ValueMap<reco::MuonTimeExtra> >
+class edm::Wrapper<reco::MuonTimeExtraMap>
+class edm::Wrapper<std::vector<EmulatedME0Segment> >
+class edm::Wrapper<std::vector<reco::CaloMuon> >
+class edm::Wrapper<std::vector<reco::ME0Muon> >
+class edm::Wrapper<std::vector<reco::Muon> >
+class edm::Wrapper<std::vector<reco::MuonCosmicCompatibility> >
+class edm::Wrapper<std::vector<reco::MuonMETCorrectionData> >
+class edm::Wrapper<std::vector<reco::MuonQuality> >
+class edm::Wrapper<std::vector<reco::MuonShower> >
+class edm::Wrapper<std::vector<reco::MuonSimInfo> >
+class edm::Wrapper<std::vector<reco::MuonTimeExtra> >
+class edm::Wrapper<std::vector<reco::MuonTrackLinks> >
+class edm::Wrapper<vector<EmulatedME0Segment> >
+class edm::Wrapper<vector<reco::CaloMuon> >
+class edm::Wrapper<vector<reco::ME0Muon> >
+class edm::Wrapper<vector<reco::Muon> >
+class edm::Wrapper<vector<reco::MuonCosmicCompatibility> >
+class edm::Wrapper<vector<reco::MuonMETCorrectionData> >
+class edm::Wrapper<vector<reco::MuonQuality> >
+class edm::Wrapper<vector<reco::MuonShower> >
+class edm::Wrapper<vector<reco::MuonSimInfo> >
+class edm::Wrapper<vector<reco::MuonTimeExtra> >
+class edm::Wrapper<vector<reco::MuonTrackLinks> >
+class edm::helpers::Key<edm::RefProd<std::vector<reco::Muon> > >
+class edm::helpers::Key<edm::RefProd<vector<reco::Muon> > >
+class edm::reftobase::BaseHolder<reco::Muon>
+class edm::reftobase::BaseVectorHolder<reco::Muon>
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<std::vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<std::vector<reco::Muon>,reco::Muon> > >
+class edm::reftobase::Holder<reco::Candidate,edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class edm::reftobase::IndirectHolder<reco::Muon>
+class edm::reftobase::RefHolder<edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class edm::reftobase::RefHolder<reco::MuonRef>
+class edm::reftobase::RefVectorHolder<edm::RefVector<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class edm::reftobase::RefVectorHolder<reco::MuonRefVector>
+class edm::reftobase::VectorHolder<reco::Candidate,edm::RefVector<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class edm::reftobase::VectorHolder<reco::Candidate,reco::MuonRefVector>
+class map<reco::Muon::MuonTrackType,edm::Ref<vector<reco::Track>,reco::Track,edm::refhelper::FindUsingAdvance<vector<reco::Track>,reco::Track> > >
+class reco::CaloMuon
+class reco::DYTInfo
+class reco::ME0Muon
+class reco::Muon
+class reco::Muon::MuonTrackRefMap
+class reco::MuonChamberMatch
+class reco::MuonCosmicCompatibility
+class reco::MuonEnergy
+class reco::MuonIsolation
+class reco::MuonMETCorrectionData
+class reco::MuonPFIsolation
+class reco::MuonQuality
+class reco::MuonRPCHitMatch
+class reco::MuonSegmentMatch
+class reco::MuonShower
+class reco::MuonSimInfo
+class reco::MuonTime
+class reco::MuonTimeExtra
+class reco::MuonTimeExtraMap
+class reco::MuonTrackLinks
+class vector<EmulatedME0Segment>
+class vector<edm::Ref<vector<reco::Muon>,reco::Muon,edm::refhelper::FindUsingAdvance<vector<reco::Muon>,reco::Muon> > >
+class vector<reco::CaloMuon>
+class vector<reco::DYTInfo>
+class vector<reco::DYTInfo>::const_iterator
+class vector<reco::ME0Muon>
+class vector<reco::Muon>
+class vector<reco::MuonChamberMatch>
+class vector<reco::MuonCosmicCompatibility>
+class vector<reco::MuonCosmicCompatibility>::const_iterator
+class vector<reco::MuonMETCorrectionData>
+class vector<reco::MuonMETCorrectionData>::const_iterator
+class vector<reco::MuonQuality>
+class vector<reco::MuonQuality>::const_iterator
+class vector<reco::MuonRPCHitMatch>
+class vector<reco::MuonRef>
+class vector<reco::MuonRef>::const_iterator
+class vector<reco::MuonSegmentMatch>
+class vector<reco::MuonShower>
+class vector<reco::MuonShower>::const_iterator
+class vector<reco::MuonSimInfo>
+class vector<reco::MuonTimeExtra>
+class vector<reco::MuonTrackLinks>
+header DataFormats/MuonReco/interface/EmulatedME0Segment.h
+header DataFormats/MuonReco/interface/CaloMuon.h
+header DataFormats/MuonReco/interface/DYTInfo.h
+header DataFormats/MuonReco/interface/ME0Muon.h
+header DataFormats/MuonReco/interface/Muon.h
+header DataFormats/MuonReco/interface/MuonChamberMatch.h
+header DataFormats/MuonReco/interface/MuonCosmicCompatibility.h
+header DataFormats/MuonReco/interface/MuonEnergy.h
+header DataFormats/MuonReco/interface/MuonIsolation.h
+header DataFormats/MuonReco/interface/MuonMETCorrectionData.h
+header DataFormats/MuonReco/interface/MuonPFIsolation.h
+header DataFormats/MuonReco/interface/MuonQuality.h
+header DataFormats/MuonReco/interface/MuonRPCHitMatch.h
+header DataFormats/MuonReco/interface/MuonSegmentMatch.h
+header DataFormats/MuonReco/interface/MuonShower.h
+header DataFormats/MuonReco/interface/MuonSimInfo.h
+header DataFormats/MuonReco/interface/MuonTime.h
+header DataFormats/MuonReco/interface/MuonTimeExtra.h
+header DataFormats/MuonReco/interface/MuonTrackLinks.h
+# List of selected typedefs and outer classes
